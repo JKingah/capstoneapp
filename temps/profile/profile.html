@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.balance {
+    background-color: #eee;
+    border-radius: 12px
+}
+.balance:hover {
+    border: 1px solid #5957f9
+}
+.dollar-div {
+    background-color: #5957f9;
+    padding: 12px;
+    border-radius: 10px
+}
+
+.round-div {  
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.dollar {
+    font-size: 16px !important;
+    color: #5957f9 !important;
+    font-weight: bold !important
+}
+
+.current-balance {
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold
+}
+
+.amount {
+    color: #5957f9;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.dollar-sign {
+    font-size: 16px;
+    color: #272727;
+    font-weight: bold
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">User Profile</h2>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1483392707171-cb3e4b1cb8b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="John" style="width:100%">
+  <h1>James Kinga</h1>
+  <p class="title">CEO & Founder, Example</p>
+  <!--<p>Current Balance</p> -->
+  <div class="balance">
+    <div class="dollar-div px-3">
+        <div class="round-div"><i class="fa fa-dollar dollar"></i></div>
+        <div> <span class="current-balance">Current Balance</span> <span class="amount"><span class="dollar-sign">$</span>1476</span> </div>
+    </div>
+  </div>
+  <!--
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  -->
+  <p><button onclick="file:///home/king-k/LuxProjects/capstoneapp/temps/mullapp2.html">Make Payment</button></p>
+  <p><button>Send Money</button></p>
+  <p><button>Request Cash</button></p>
+  <p><button>Buy Airtime</button></p>
+</div>
+
+</body>
+</html>
